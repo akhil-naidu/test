@@ -1,8 +1,12 @@
 import React from 'react';
 
 const ToDo = () => {
+  const submitHandler = () => {
+    console.log('todo submitted');
+  };
+
   return (
-    <form>
+    <form onSubmit={submitHandler}>
       <input type='text' placeholder='Enter a ToDo' />
     </form>
   );
