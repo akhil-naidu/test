@@ -2,7 +2,7 @@ import React from 'react';
 
 const ToDo = () => {
   const submitHandler = () => {
-    console.log('Girish is using Github');
+    console.log('Girish is using Github and git');
   };
 
   return (
