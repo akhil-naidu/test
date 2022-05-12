@@ -2,7 +2,7 @@ import React from 'react';
 
 const ToDo = () => {
   const submitHandler = () => {
-    console.log('todo submitted');
+    console.log('girish submitted');
   };
 
   return (
